@@ -1,0 +1,50 @@
+{
+  "restaurantName": "Львівська ресторація",
+  "categories": [
+    {
+      "categoryName": "Перші страви",
+      "dishes": [
+        {
+          "id": "d1",
+          "dishName": "Борщ український",
+          "price": 145.50,
+          "weight": 350,
+          "ingredients": ["м'ясний бульйон", "буряк", "капуста", "картопля", "сметана"],
+          "isSpicy": false,
+          "isVegetarian": false
+        },
+        {
+          "id": "d2",
+          "dishName": "Крем-суп із печериць",
+          "price": 120,
+          "weight": 300,
+          "ingredients": ["печериці", "вершки", "цибуля", "сухарики"],
+          "isVegetarian": true
+        }
+      ]
+    },
+    {
+      "categoryName": "Гарячі закуски",
+      "dishes": [
+        {
+          "id": "d3",
+          "dishName": "Гострі курячі крильця",
+          "price": 185,
+          "weight": 250,
+          "ingredients": ["курячі крила", "соус чилі", "часник"],
+          "isSpicy": true,
+          "isVegetarian": false
+        },
+        {
+          "id": "d4",
+          "dishName": "Таємна страва від шефа",
+          "price": 250,
+          "weight": 200,
+          "ingredients": [],
+          "isSpicy": null,
+          "isVegetarian": null
+        }
+      ]
+    }
+  ]
+}
