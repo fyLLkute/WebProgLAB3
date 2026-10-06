@@ -203,3 +203,5 @@ program
     });
 
 program.parse(process.argv);
+
+// Команди варіанта додано
